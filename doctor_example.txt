@@ -1,0 +1,12 @@
+ex:Doctor
+	a owl:Class ;
+	rdfs:subClassOf
+		[
+			a owl:Restriction ;
+			owl:onProperty ex:hasCapability ;
+			owl:hasValue ex:WriteAPrescription ;
+		] 
+		;
+	skos:definition "Doctors are able to write prescriptions."^^xsd:string ;
+	skos:prefLabel "Doctor"^^xsd:string .
+	
